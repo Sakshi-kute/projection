@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Lato',sans-serif;
+}
+
+html{
+    font-size:15px;
+}
+
+.wrapper{
+    width:100vw;
+    background-image:url("../img/banner.jpg");
+}
+
+/*navigation starts*/
+#my-navigation{
+    background: none;
+    border: none;
+}
+#my-navigation a{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #fff;
+}
+#my-navigation a:hover{
+   color: #50BF55;
+}
+
+#my-navigation span{
+    font-weight: 500;
+}
+
+.navbar .navbar-toggle{
+    border-color: #50BF55;
+}
+
+/* navigation ends */
+
+/* banner starts */
+
+.wrapper .banner h1{
+    margin-top: 100px;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+/*three section starts*/
+.three-section{
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.three-section span{
+    font-size: 2.5rem;
+    color: #50BF55;
+}
+
+
+.three-section h1{
+    color: #fff;
+    font-size: 2.1rem;
+}
+
+.three-section p{
+    font-size: 1.3rem;
+    color: #dbdbdb;
+}
+
+.add-border{
+    border-style: solid;
+    border-width: 0px 1px;
+    border-color: #dbdbdb;
+}
+
+.my-button{
+    width: 200px;
+    height: 50px;
+    background: none;
+    border: 3px solid #50BF55;
+    border-radius: 50px;
+    font-size: 1.3rem;
+    font-weight: 300;
+    font-family: 'Lato',sans-serif;
+    color: #50BF55;
+    margin: 50px 0px;
+} 
+
+
+
+/*two section start*/
+
+.custom-row{
+    padding: 100px 0px;
+}
+
+.custom-row h1{
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 45px;
+
+}
+.custom-row p{
+    font-size: 1.2rem;
+    color: gray;
+    word-spacing: 2px;
+}
+
+
+/*footer starts here*/
+
+.footer{
+    width: 100%;
+    background-color: #50BF55;
+    padding: 70px;
+}
+
+.footer .get h1{
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+
+/*form starts*/
+.footer .form{
+    color:#fff;
+    margin-bottom: 50px;
+}
+
+/*last starts*/
+
+.last .white-button{
+    width: 170px;
+    height: 50px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 200;
+    background: none;
+    margin: 50px 0px;
+}
+
+.footer p{
+    color: #fff;
+    font-size: 1rem;
+}
+
+/*footer end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
